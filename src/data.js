@@ -85,6 +85,12 @@ export const featuredPortfolio = [
       title: "Coming soon!",
       img:
         "assets/sass.png",
+    },
+    {
+      id: 1,
+      title: "Coming soon!",
+      img:
+        "assets/tailwind.png",
     }
     
   ];
