@@ -38,7 +38,12 @@ export const featuredPortfolio = [
       id: 3,
       title: "Coming soon!",
       img: "assets/html.jpg",
-    }
+    },
+    {
+      id: 2,
+      title: "Coming soon!",
+      img: "assets/nextjs.jpeg",
+    },
   ];
   
   export const mobilePortfolio = [
@@ -59,6 +64,12 @@ export const featuredPortfolio = [
       title: "Coming soon!",
       img:
         "assets/json.jpg",
+    },
+    {
+      id: 1,
+      title: "Coming soon!",
+      img:
+        "assets/contentful.png",
     }
   ];
   
