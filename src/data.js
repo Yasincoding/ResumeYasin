@@ -43,6 +43,7 @@ export const featuredPortfolio = [
       id: 2,
       title: "Coming soon!",
       img: "assets/nextjs.jpeg",
+      link: "https://gemeente-rotterbosch-blog.netlify.app/"
     },
   ];
   
@@ -70,6 +71,7 @@ export const featuredPortfolio = [
       title: "Coming soon!",
       img:
         "assets/contentful.png",
+        link: "https://gemeente-rotterbosch-blog.netlify.app/",
     }
   ];
   

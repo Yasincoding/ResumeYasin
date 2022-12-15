@@ -59,6 +59,7 @@ export default function Portfolio() {
                 active={selected === item.id}
                 setSelected={setSelected}
                 id={item.id}
+                link={item.link}
               />
             ))}
           </ul>
@@ -69,7 +70,8 @@ export default function Portfolio() {
                   src={d.img}
                   alt=""
                 />
-                <h3>{d.title}</h3>
+                <a className="LTP" href={d.link}>Link to the project</a>
+                {/* <h3>{d.title}</h3> */}
               </div>
             ))}
           </div>
