@@ -70,8 +70,7 @@ export default function Portfolio() {
                   src={d.img}
                   alt=""
                 />
-                <a className="LTP" href={d.link}>Link to the project</a>
-                {/* <h3>{d.title}</h3> */}
+                <a className="LTP" href={d.link} target="_blank" rel="noopener noreferrer">Link to the project</a>
               </div>
             ))}
           </div>
