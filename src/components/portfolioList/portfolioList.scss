@@ -6,10 +6,13 @@
   padding: 700px;
   border-radius: 10px;
   cursor: pointer;
+  width: auto;
 
   @include mobile {
-    margin-right: 200px;
+    pading: 20px;
+    margin: 10px;
     text-align: center;
+    width: 50%;
   }
 
   &.active {
