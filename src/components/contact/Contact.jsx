@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./contact.scss";
 import { Person } from "@material-ui/icons";
 
