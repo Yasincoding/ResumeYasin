@@ -1,26 +1,23 @@
 import { useState } from "react";
 import "./contact.scss";
+import { Person } from "@material-ui/icons";
 
 export default function Contact() {
-  const [message, setMessage] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    setMessage(true);
-  };
   return (
     <div className="contact" id="contact">
       <div className="left">
         <img src="assets/shake.svg" alt="" />
       </div>
       <div className="right">
-        <h2>Contact.</h2>
-        <form action="https://formsubmit.co/yasinscoding@gmail.com" method="POST" onSubmit={handleSubmit}  >
-          <input type="text" placeholder="Email" />
-          <textarea placeholder="Message"></textarea>
-          <button type="submit">Send</button>
-          {message && <span>Message sent!</span>}
-        </form>
+        <h2>Contact</h2>
+        <div className="itemContainer">
+          <Person className="icon" />
+          <a href="tel:+0642061401">+0642061401</a>
+        </div>
+        <div className="itemContainer">
+          <Person className="icon" />
+          <a HREF="mailto:yasin52gumus@gmail.com">yasin52gumus@gmail.com</a>
+        </div>
       </div>
     </div>
   );
