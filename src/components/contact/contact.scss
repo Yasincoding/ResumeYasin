@@ -1,23 +1,19 @@
 @import "../../global.scss";
 
-.itemContainer{
+.itemContainer {
   display: flex;
   align-items: center;
   margin-right: 30px;
   margin-left: 10px;
 
-  @include mobile{
-      display: none;
-    }
-
-  .icon{
-      font-size: 18px;
-      margin-right: 5px;
+  .icon {
+    font-size: 18px;
+    margin-right: 5px;
   }
-  .span{
-      font-size: 15px;
-      font-weight: 500;
-      padding-bottom: 500px;
+  .span {
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 500px;
   }
 }
 .contact {
